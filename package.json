@@ -1,0 +1,10 @@
+{
+  "name": "park-tree-check",
+  "private": true,
+  "scripts": {
+    "deploy": "firebase deploy --only hosting,firestore:rules"
+  },
+  "devDependencies": {
+    "firebase-tools": "^14.0.0"
+  }
+}
